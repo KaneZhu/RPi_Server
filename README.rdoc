@@ -1,0 +1,6 @@
+== README
+
+The Web server for weightlossing raspberry pi. It includes the foods info such as barcode, fat, salt.... Rpi can send the json request for sepcific barcode and download its corresponding food info.
+
+Editor:		Yuanxu Zhu & Yuting Sun
+Last Edit:	16, Feb, 2015

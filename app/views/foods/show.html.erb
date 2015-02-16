@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Barcode:</strong>
+  <%= @food.barcode %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @food.name %>
+</p>
+
+<p>
+  <strong>Energy:</strong>
+  <%= @food.energy %>
+</p>
+
+<p>
+  <strong>Fat:</strong>
+  <%= @food.fat %>
+</p>
+
+<p>
+  <strong>Saturates:</strong>
+  <%= @food.saturates %>
+</p>
+
+<p>
+  <strong>Sugars:</strong>
+  <%= @food.sugars %>
+</p>
+
+<p>
+  <strong>Salt:</strong>
+  <%= @food.salt %>
+</p>
+
+<%= link_to 'Edit', edit_food_path(@food) %> |
+<%= link_to 'Back', foods_path %>
